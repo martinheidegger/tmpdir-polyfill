@@ -1,4 +1,4 @@
-# tmpdir-polyfill [![NPM version](https://img.shields.io/npm/v/tmpdir-polyfill.svg?style=flat)](https://www.npmjs.com/package/tmpdir-polyfill) [![NPM downloads](https://img.shields.io/npm/dm/tmpdir-polyfill.svg?style=flat)](https://npmjs.org/package/tmpdir-polyfill) [![Build Status](https://img.shields.io/travis/doowb/homedir-polyfill.svg?style=flat&label=Travis)](https://travis-ci.org/martinheidegger/tmpdir-polyfill)
+# tmpdir-polyfill [![NPM version](https://img.shields.io/npm/v/tmpdir-polyfill.svg?style=flat)](https://www.npmjs.com/package/tmpdir-polyfill) [![NPM downloads](https://img.shields.io/npm/dm/tmpdir-polyfill.svg?style=flat)](https://npmjs.org/package/tmpdir-polyfill) [![Build Status](https://img.shields.io/travis/martinheidegger/homedir-polyfill.svg?style=flat&label=Travis)](https://travis-ci.org/martinheidegger/tmpdir-polyfill)
 
 > Node.js os.tmpdir polyfill for older versions of node.js.
 
@@ -15,7 +15,7 @@ $ npm install --save tmpdir-polyfill
 ```js
 var homedir = require('tmpdir-polyfill');
 console.log(tmpdir());
-//=> /Users/doowb
+//=> /var/folders/g2/bqbqq47d4pg7v4rqx90612m00000gn/T
 ```
 
 ## Reasoning
